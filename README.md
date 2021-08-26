@@ -1,4 +1,4 @@
-# Projet 3 "AllMyFood"
+# Projet 3 "All My Food"
 _______________________________________________________________________________________________________________________________________________
 
 "Réaliser la maquette en s'appyant sur la méthode "Mobile First".
