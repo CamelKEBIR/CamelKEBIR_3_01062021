@@ -369,7 +369,8 @@ footer p{
     font-size: 1.2em;
 }
 
-.FooterMenu ul{
+.FooterMenu ol{
+    margin:0;
     list-style: none;
 }
 
