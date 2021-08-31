@@ -2,48 +2,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap");
 
 
+
 @keyframes spin {
+    
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
-@keyframes display100 {
+@keyframes Spinner {
     0% {
-      height: 100%;
-      opacity: 1;
+        height: 100%;
+        opacity: 1;
     }
     100% {
-      height: 100%;
-      opacity: 0;
-      z-index: -1;
+        height: 100%;
+        opacity: 0;
+        z-index: -1;
     }
 }
 
-main {
-    width:auto;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-}
-
-header {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    padding: 5px;
-}
-
-header img{
-
-    margin-top:10px;
-    margin-bottom: 10px;
-}
 
 .Loading {
     display: flex;
@@ -51,7 +32,7 @@ header img{
     align-items: center;
     background: #FFF;
     color: #9356DC;
-    animation: 3s display100 2s forwards;
+    animation: 3s Spinner 2s forwards;
     position: absolute;
     z-index: 1;
     height: 100%;
@@ -80,6 +61,27 @@ header img{
     animation: spin 1s linear 0s infinite;
 }
 
+main {
+    width:auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 5px;
+}
+
+header img{
+
+    margin-top:10px;
+    margin-bottom: 10px;
+}
 
 .FirstContent{
     height: 240px;
