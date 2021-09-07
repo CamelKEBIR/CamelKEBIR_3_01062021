@@ -26,7 +26,7 @@
 }
 
 
-.Loading {
+.loading {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,14 +41,14 @@
     line-height: 500px;
 }
 
-.Spinner {
+.spinner {
     position: relative;
     width: 70px;
     height: 70px;
     
 }
 
-.Spinner:after {
+.spinner:after {
     content: "";
     position: absolute;
     top: -10px;
@@ -91,7 +91,7 @@ header a{
     
 }
 
-.FirstContent{
+.firstContent{
     height: 240px;
     display: flex;
     padding: 50px 30px;
@@ -100,25 +100,24 @@ header a{
     background: #f9f9f9;
     justify-content: center;
     text-align: center;
-    
 }
 
-.FirstContent h1{
+.firstContent h1{
     margin: 0;
     font-size: 1.7em;
 }
 
-.FirstContent p{
+.firstContent p{
 
     font-weight: 200;
 }
 
 
-.MapLogo p {
+.mapLogo p {
     padding-left: 15px;
 }
 
-.MapLogo {
+.mapLogo {
     height: 40px;
     display: flex;
     flex-direction: row;
@@ -131,7 +130,7 @@ header a{
 }
 
 
-.FirstContentButton{
+.firstContentButton{
     text-decoration: none;
     padding: 14px 24px;
     background-image: linear-gradient(180deg, #9356DC, #FF79DA);
@@ -147,7 +146,7 @@ header a{
 }
 
 
-.FirstContentButton:hover{
+.firstContentButton:hover{
     color: #FFF;
     filter: brightness(1.3);
     transform: scale(1.05);
@@ -155,7 +154,7 @@ header a{
 }
 
 
-.FunctioningList {
+.functioningList {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -165,14 +164,14 @@ header a{
     margin: 10px 0;
 }
 
-.FunctioningTitle{
+.functioningTitle{
 
     padding-top: 20px;
     margin-left: 20px;
     font-size: 1.3em;
 }
 
-.FunctioningButton {
+.functioningButton {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -187,7 +186,7 @@ header a{
     transition: 100ms;
 }
 
-.FunctioningButton:hover{
+.functioningButton:hover{
     cursor: default;
     box-shadow: 0px 6px 10px #afafaf;
     background: #f4eefc;
@@ -196,11 +195,11 @@ header a{
     outline-style: none;
 }
 
-.FunctioningButton:hover .fas{
+.functioningButton:hover .fas{
     color: #9356DC;
 }
 
-.FunctioningButton .fas {
+.functioningButton .fas {
     padding: 0px;
     margin: 0px 20px;
     color: gray;
@@ -208,7 +207,7 @@ header a{
     
 }
 
-.FunctioningButton span {
+.functioningButton span {
     width: 25px;
     height: 25px;
     background: #9356dc;
@@ -227,11 +226,11 @@ header a{
     font-size: 0.8em;
 }
 
-.FunctioningButton p {
+.functioningButton p {
     margin: 0;
 }
 
-.FunctioningList {
+.functioningList {
     list-style: none;
     width: 100%;
     display: flex;
@@ -244,7 +243,7 @@ header a{
     margin: 0;
 }
 
-.Restaurant {
+.restaurant {
     background: #f9f9f9;
     padding: 35px 10px;
     font-weight: 200;
@@ -253,18 +252,18 @@ header a{
 }
 
 
-.RestaurantList {
+.restaurantList {
     display: flex;
     flex-wrap: wrap;
 }
 
-.RestaurantTitle {
+.restaurantTitle {
     display: flex;
     justify-content: left;
     font-size: 1.3em;
 }
 
-.RestaurantShape {
+.restaurantShape {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -283,12 +282,12 @@ header a{
     
 }
 
-.RestaurantShape:hover{
+.restaurantShape:hover{
     transform: scale(1.1);
 }
 
 
-.RestaurantPicture {
+.restaurantPicture {
     display: flex;
     align-items: flex-start;
     align-content: flex-start;
@@ -297,14 +296,14 @@ header a{
 }
 
  
-.RestaurantPicture a {
+.restaurantPicture a {
     display: flex;
     justify-content: center;
 }
 
 
 
-.RestaurantContent {
+.restaurantContent {
     position:relative;
     bottom:25px;
     padding: 20px;
@@ -321,21 +320,21 @@ h4{
 }
 
 
-.RestaurantContent a {
+.restaurantContent a {
     text-decoration: none;
 }
 
 
-.RestaurantContent * {
+.restaurantContent * {
     margin: 0;
 }
 
 
-.RestaurantContent .far {
+.restaurantContent .far {
     font-size: 1.6em;
-    width: 27px;
+    width:25px;
     margin:20px 0;
-    appearance: none;
+    
 }
 
 .far:hover{
@@ -348,7 +347,7 @@ h4{
     
 }
 
-.RestaurantNew {
+.restaurantNew {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -359,13 +358,13 @@ h4{
     color: #178066;
 }
 
-.RestaurantNew p {
+.restaurantNew p {
     margin: 0;
     font-size: small;
     font-weight: 600;
 }
 
-.Restaurant img {
+.restaurant img {
     width: 100%;
 }
 
@@ -381,12 +380,12 @@ footer p{
     font-size: 1.2em;
 }
 
-.FooterMenu ol{
+.footerMenu ol{
     margin:0;
     list-style: none;
 }
 
-.FooterMenu a{
+.footerMenu a{
     color: #fff;
     text-decoration: none;
     margin-right: 20px;
@@ -394,7 +393,7 @@ footer p{
     line-height: 25px;
 }
 
-.FooterMenu a:hover * {
+.footerMenu a:hover * {
   color: #99E2D0;
 
 }
@@ -406,56 +405,56 @@ footer p{
 
 @media screen and (min-width: 515px) and (max-width: 768px) {
 
-.RestaurantShape{
+.restaurantShape{
     height: 350px;
 }
 
-.RestaurantContent{
+.restaurantContent{
     padding-top:30px;
     font-size: 1.3em;
 }
 
-.RestaurantPicture{
+.restaurantPicture{
     height:290px;
 }
 
-.RestaurantContent .far{
-    width: 45px;
+.restaurantContent .far{
+    width:45px;
 }
 
-.FooterMenu{
+.FfooterMenu{
     padding:20px;
 }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
-.FunctioningTitle{
+.functioningTitle{
     display: flex;
     justify-content: center;
 }
 
-.FunctioningButton{
+.functioningButton{
     display:flex;
     flex-direction: row;
     width: 30%;
 }
 
-.RestaurantTitle{
+.restaurantTitle{
     display: flex;
     justify-content: center;
 }
 
-.RestaurantList{
+.restaurantList{
     margin-left:8%;
 }
 
-.RestaurantShape{
+.restaurantShape{
     display:flex;
     width : 40%;
 }
 
-.FooterMenu{
+.footerMenu{
     padding:20px;
 }
 }
@@ -463,41 +462,41 @@ footer p{
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
 
-.RestaurantContent .far {
+.restaurantContent .far {
     width: 10px;
     
 }
-.FunctioningTitle{
+.functioningTitle{
     display: flex;
     justify-content: center;
 }
 
-.FunctioningButton{
+.functioningButton{
     display:flex;
     flex-direction: row;
     width: 30%;
 }
 
-.RestaurantList{
+.restaurantList{
 
     margin-left:10%;
 }
 
-.RestaurantShape{
+.restaurantShape{
     display:flex;
     width : 40%;
     height:300px;
 }
 
-.FooterMenu{
+.footerMenu{
     padding:20px;
 }
 
-.RestaurantPicture{
+.restaurantPicture{
     height:260px;
 }
 
-.RestaurantContent{
+.restaurantContent{
     font-size: 1.3em;
 }
 
@@ -505,7 +504,7 @@ footer p{
     padding-right: 50px;
 }
 
-.RestaurantTitle{
+.restaurantTitle{
     display:flex;
     justify-content: center;
 }
@@ -514,46 +513,46 @@ footer p{
     
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
     
-.FunctioningTitle{
+.functioningTitle{
     display: flex;
     justify-content: center;
 }
 
-.FunctioningButton{
+.functioningButton{
     display:flex;
     flex-direction: row;
     width: 20%;
 }
 
-.RestaurantShape{
+.restaurantShape{
     display:flex;
     justify-content:space-between ;
     width : 22%;
     height:300px;
 }
 
-.RestaurantList{
+.restaurantList{
     margin-left:3%;
 }
 
-.FooterMenu{
+.footerMenu{
     padding:20px;
 }
 
-.RestaurantPicture{
+.restaurantPicture{
     height:260px;
 }
 
-.RestaurantContent{
+.restaurantContent{
     font-size: 1.3em;
 }
 
-.RestaurantTitle{
+.restaurantTitle{
     display:flex;
     justify-content: center;
 }
 
-.RestaurantContent .far {
+.restaurantContent .far {
     width:35px;
 }
 }
@@ -575,13 +574,13 @@ footer p{
 margin-top:20px;
 }
 
-.Menu {
+.menu {
 background: #f7f7f7;
 display: flex;
 flex-direction: column;
 
 }
-.MenuSection{
+.menuSection{
 display: flex;
 flex-direction: column;
 justify-content: flex-end;
@@ -589,20 +588,20 @@ height:240px;
 width: 100%;
 
 }
-.PictureALaFrancaise {
+.pictureALaFrancaise {
 background: no-repeat center/100% url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
 }
-.PictureLaNoteEnchantee {
+.pictureLaNoteEnchantee {
 background: no-repeat center/100% url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
 }
-.PictureLaPaletteDuGout {
+.pictureLaPaletteDuGout {
 background: no-repeat center/100% url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
 }
-.PictureLeDeliceDesSens {
+.pictureLeDeliceDesSens {
 background: no-repeat center/100% url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
 }
 
-.MenuGreatTitle{
+.menuGreatTitle{
 display: flex;
 align-items: center;
 font-family: "Shrikhand", cursive;
@@ -623,7 +622,7 @@ padding-top:10px;
 
 }
 
-.MenuGreatTitle .far  {
+.menuGreatTitle .far  {
 font-size: 1.5em;
 position:absolute;
 left:85%;
@@ -637,42 +636,42 @@ background-clip:text;
 -webkit-background-clip: text;
 }
 
-.MenuCard {
+.menuCard {
 background: #f7f7f7;
 padding: 15px;
 height:300px;
 }
 
 
-.MenuCard h3 {
+.menuCard h3 {
 margin: 10px 0 2px;
 font-size: 1.1em;
 font-weight: 300;
 text-transform: uppercase;
 }
 
-.MenuTitle {
+.menuTitle {
 display: flex;
 flex-direction: column;
 margin: auto;
 margin-top:50px;
 }
 
-.MenuTitle1{
+.menuTitle1{
     margin-top:130px;
 }
 
-.MenuTitle2{
+.menuTitle2{
     margin-top:110px;
 }
 
-.BorderBottom {
+.borderBottom {
 width: 50px;
 height: 4px;
 background: #99E2D0;
 }
 
-.Set {
+.set {
 display: flex;
 background-color: white;
 border-radius: 15px;
@@ -686,17 +685,17 @@ height:40px;
 cursor: pointer;
 }
 
-.SetContent{
+.setContent{
 width: 100%;
 white-space: nowrap;
 
 }
 
-.SetContent p{
+.setContent p{
 font-size: 13px;
 margin:2px;
 }
-.SetPrice{
+.setPrice{
 font-weight: 600;
 font-size: 15px;
 padding-top:5px;
@@ -704,8 +703,8 @@ padding-right: 40px;
 
 }
 
-.Set:hover
-.RateBox{
+.set:hover
+.rateBox{
 background-color: #99e2d0;
 opacity: 100%;
 width: 90px;
@@ -713,7 +712,7 @@ width: 90px;
 transition: 0.6s;
 }
 
-.RateBox {
+.rateBox {
 background-color: white;
 width: 0%;
 overflow: hidden;
@@ -729,14 +728,14 @@ opacity: 0%;
 
 }
 
-.RateBox .fas{
+.rateBox .fas{
 
 color: white;
 font-size: 1.5em;
 
 }
 
-.SetAnim1{
+.setAnim1{
 
 animation: apparition 500ms linear 1 forwards;
 animation-delay: 900ms;
@@ -744,20 +743,20 @@ animation-delay: 0.3s;
 
 }
 
-.SetAnim2 {
+.setAnim2 {
 animation: apparition 500ms linear 1 forwards;
 animation-delay: 900ms;
 animation-delay: 0.6s;
 }
 
-.SetAnim3{
+.setAnim3{
 animation: apparition 500ms linear 1 forwards;
 animation-delay: 900ms;
 animation-delay: 0.9s;
 }
 
 
-.SetAnim4 {
+.setAnim4 {
 animation: apparition 500ms linear 1 forwards;
 animation-delay: 900ms;
 animation-delay: 1.3s;
@@ -775,10 +774,10 @@ animation-delay: 1.3s;
 }
 }
 
-.SetAnim1:hover i, 
-.SetAnim2:hover i,
-.SetAnim3:hover i,
-.SetAnim4:hover i{
+.setAnim1:hover i, 
+.setAnim2:hover i,
+.setAnim3:hover i,
+.setAnim4:hover i{
 
 -webkit-animation: spin 0.5s linear;
 animation: spin 0.5s linear;
@@ -794,12 +793,12 @@ animation: spin 0.5s linear;
     transform: rotate(360deg);
 }
 }
-.Button{
+.button{
 
 background-color: #f7f7f7;
 height:200px;
 }
-.BuyButton{
+.buyButton{
 display:flex;
 justify-content: center;
 position:relative;
@@ -824,7 +823,7 @@ transition: 100ms;
     position:relative;
     right:30%;
 }
-.MenuGreatTitle .far{
+.menuGreatTitle .far{
     position:absolute;
     left:93%;
 }
@@ -837,7 +836,7 @@ transition: 100ms;
     position:relative;
     right:30%;
 } 
-.MenuGreatTitle .far{
+.menuGreatTitle .far{
 
     position:absolute;
     left:93%;
@@ -852,17 +851,17 @@ transition: 100ms;
     right: 12%; top:45px;
 } 
 
-.MenuGreatTitle .far{
+.menuGreatTitle .far{
    position:absolute;
    left:93%;
 }
 
-.Menu{
+.menu{
     width:50%;
     margin:auto;
 }
 
-.MenuCard{
+.menuCard{
     height:350px;
     width: 98%;
 }
