@@ -316,6 +316,10 @@ header a{
     width:100%;
 }
 
+.restaurantContent p{
+
+    color:black;
+}
 
 h4{
     font-size: 1em;
@@ -345,6 +349,7 @@ h4{
     font-weight: 600;
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
+    background-clip:none;
 }
 
 .restaurantNew {
