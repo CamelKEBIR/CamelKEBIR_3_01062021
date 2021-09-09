@@ -586,8 +586,8 @@ margin-top:20px;
 background: #f7f7f7;
 display: flex;
 flex-direction: column;
-
 }
+
 .menuSection{
 display: flex;
 flex-direction: column;
@@ -640,23 +640,25 @@ left:85%;
 
 .menuCard {
 background: #f7f7f7;
-padding: 15px;
+padding: 50px 15px 15px 15px;
 height:300px;
 }
 
 
+
 .menuCard h3 {
-margin: 10px 0 2px;
+margin: 20px 0 0;
 font-size: 1.1em;
 font-weight: 300;
 text-transform: uppercase;
 }
 
+
 .menuTitle {
 display: flex;
 flex-direction: column;
 margin: auto;
-margin-top:50px;
+margin-top:40px;
 }
 
 .menuTitle1{
@@ -664,7 +666,7 @@ margin-top:50px;
 }
 
 .menuTitle2{
-    margin-top:110px;
+    margin-top:150px;
 }
 
 .borderBottom {
@@ -687,13 +689,26 @@ height:40px;
 cursor: pointer;
 }
 
+
 .setContent {
 width: 100%;
+white-space: nowrap;
+text-overflow:ellipsis;
+overflow: hidden;
 }
 
 .setContent p{
 font-size: 13px;
 margin:2px;
+white-space: nowrap;
+text-overflow:ellipsis;
+overflow: hidden;
+}
+
+.setContent h4{
+white-space: nowrap;
+text-overflow:ellipsis;
+overflow: hidden;
 }
 
 .setPrice{
@@ -701,7 +716,6 @@ font-weight: 600;
 font-size: 15px;
 padding-top:5px;
 padding-right: 40px;
-
 }
 
 .set:hover
@@ -726,7 +740,6 @@ height: 72px;
 border-radius: 0 17px 17px 0;
 margin: -16px;
 opacity: 0%;
-
 }
 
 .rateBox .fas{
@@ -794,11 +807,18 @@ animation: spin 0.5s linear;
     transform: rotate(360deg);
 }
 }
-.button{
 
+.button{
 background-color: #f7f7f7;
 height:200px;
 }
+
+.button1{
+
+    height:300px;
+}
+
+
 
 .buyButton{
 display:flex;
@@ -814,6 +834,12 @@ color: #FFF;
 margin: auto;
 width: 130px;
 transition: 100ms;
+}
+
+.buyButton1{
+
+    position: relative;
+    top: 65%;
 }
 
 .buyButton:hover{
