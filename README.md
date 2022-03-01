@@ -10,7 +10,7 @@ restaurants car leur menu est préparé à l’avance. Plus de perte de temps à
 
 # Mission
 
-Réaliser la maquette en s'appyant sur la méthode "Mobile First
+Réaliser la maquette en s'appyant sur la méthode "Mobile First"
 
 Construction des pages statics relatif à l'accueil et au menu avec possibilité de navigation entres-elles
 
