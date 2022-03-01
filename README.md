@@ -1,4 +1,4 @@
-# Projet 3 "OhMyFood"
+# OhMyFood
 
 "Réaliser la maquette en s'appyant sur la méthode "Mobile First".
 
